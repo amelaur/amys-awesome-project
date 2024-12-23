@@ -53,10 +53,3 @@ let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
 currentDateELement.innerHTML = formatDate(currentDate);
-
-//function displayWeather(response) {
-//console.log(response.data.temperature.current);
-//let h1 = document.querySelector("h1");
-//  h1.innerHTML = `It is ${response.data.temperature.current} degrees in ${response.data.city}, ${response.data.country} 🥳`;
-//}
-//let city = "Paris";
